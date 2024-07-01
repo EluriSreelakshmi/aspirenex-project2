@@ -6,7 +6,7 @@ The website facilitates meaningful connections, collaboration, and innovation by
 
 ## Features                                                                     
 
-- **Profiles**: Detailed profiles for founders and investors, including their experience, company details, and areas of interest.                                                                                                                                          
+- **Profiles**: Detailed profiles for founders and investors, including their experience, company details, and areas of interest.                                                                          
 - **Blog Section**: Regular updates and insights about the startup ecosystem.                                                                     
 - **Join Us**: A dedicated page for new members to join the platform.                                                                     
 - **Responsive Design**: Ensures usability across various devices and screen sizes.                                                                     
