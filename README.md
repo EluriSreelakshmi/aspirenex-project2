@@ -1,8 +1,7 @@
 # InvestNest
 
 InvestNest is a dynamic platform designed to bridge the gap between startup founders and investors. 
-The website facilitates meaningful connections, collaboration, and innovation by providing detailed profiles,                                                                                       
-easy communication tools, and insightful resources about the startup ecosystem.                                                                     
+The website facilitates meaningful connections, collaboration, and innovation by providing detailed profiles,easy communication tools, and insightful resources about the startup ecosystem.                                                                     
 
 
 ## Features                                                                     
