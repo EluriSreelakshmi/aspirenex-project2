@@ -43,7 +43,7 @@ const Founders = () => {
                                 <p className="mt-4 text-center font-bold">{founder.name}</p>
                                 <p className="mb-2 text-center text-gray-800" style={{ fontSize: '1.35rem', fontWeight: 'bold' }}>{founder.company}</p>
                                 <p className="mb-4 text-center text-gray-600">{founder.description}</p>
-                                <a href="/join-us" className="text-blue-600 hover:underline">Know More</a>
+                                <a href="https://investnest-for-founders-investors.netlify.app/join-us" className="text-blue-600 hover:underline">Know More</a>
                             </div>
                         ))}
                     </div>
