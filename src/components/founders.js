@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import founder1 from '../images/clients/founder1.png';
 import founder2 from '../images/clients/founder2.png';
 import founder3 from '../images/clients/founder3.png';
@@ -17,7 +18,7 @@ const founderImageStyle = {
 const Founders = () => {
     const founders = [
         { img: founder1, name: "Nisha Choudhary", company: "PurePetal Beauty", description: "Leading innovation in cosmetics with natural ingredients, crafting luxurious products for radiant and healthy skin care solutions." },
-        { img: founder2, name: "Mira Gupta ", company: "MunchBuds", description: "Revolutionizing children's snacking with innovative chips, prioritizing health and flavor for young palates with organic and nutritious options." },
+        { img: founder2, name: "Mira Gupta", company: "MunchBuds", description: "Revolutionizing children's snacking with innovative chips, prioritizing health and flavor for young palates with organic and nutritious options." },
         { img: founder5, name: "Rohan Verma", company: "Travel-Tech Innovations", description: "Infusing cutting-edge technology into travel bags, ensuring seamless journeys with smart, functional designs that enhance convenience and safety." },
         { img: founder3, name: "Siddharth Rao", company: "HydroSmart Solutions", description: "Pioneering advanced technology in water bottles, promoting sustainability and health with every sip through innovative filtration and eco-friendly materials." },
         { img: founder4, name: "Amit & Neha Reddy", company: "UrbanGarden", description: "Advocating urban gardens to enrich city landscapes, fostering green spaces for community and environmental benefits while promoting organic urban farming practices." },
@@ -43,7 +44,7 @@ const Founders = () => {
                                 <p className="mt-4 text-center font-bold">{founder.name}</p>
                                 <p className="mb-2 text-center text-gray-800" style={{ fontSize: '1.35rem', fontWeight: 'bold' }}>{founder.company}</p>
                                 <p className="mb-4 text-center text-gray-600">{founder.description}</p>
-                                <a href="https://investnest-for-founders-investors.netlify.app/join-us" className="text-blue-600 hover:underline">Know More</a>
+                                <Link to="/join-us" className="text-blue-600 hover:underline">Know More</Link>
                             </div>
                         ))}
                     </div>
